@@ -5,7 +5,7 @@ const NavBar = () => {
     <nav className="bg-white p-4 shadow-md">
       <div className="max-w-7xl mx-auto flex justify-between items-center text-black">
         <div className="text-lg font-semibold">
-          <Link href="/" className="hover:underline">My Portfolio</Link>
+          <Link href="/" className="hover:underline">Ravindu's Portfolio</Link>
         </div>
         <div>
           <ul className="flex space-x-6">
