@@ -11,7 +11,7 @@ const NavBar = () => {
           <ul className="flex space-x-6">
             <li>
               <Link
-                href="/home"
+                href="/page"
                 className="bg-white border border-black hover:bg-gray-500 text-black py-2 px-6 rounded-3xl shadow-md transition transform hover:scale-105"
               >
                 Home
@@ -19,7 +19,7 @@ const NavBar = () => {
             </li>
             <li>
               <Link
-                href="/about"
+                href="/About"
                 className="bg-white border border-black hover:bg-gray-500 text-black py-2 px-6 rounded-3xl shadow-md transition transform hover:scale-105"
               >
                 About Me
