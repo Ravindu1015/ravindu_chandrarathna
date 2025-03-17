@@ -1,6 +1,11 @@
+"use client"; // ✅ Marks this as a Client Component
+
+import { useRouter } from "next/navigation";
 import Image from "next/image";
 
 export default function Home() {
+  const router = useRouter();
+
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
       <Image
@@ -14,8 +19,11 @@ export default function Home() {
       <p className="mt-4 text-xl">
         Software Engineer,Project Manager & Full Stack Developer, and Cyber Security Enthusiast
       </p>
-      <p> </p>
-      <button className="bg-white border border-black text-black py-2 px-6 rounded-full mt-6 transition-all duration-300 hover:bg-gray-700 hover:text-white hover:scale-105">
+      <p>. </p>
+      <p>\/</p>
+      <button
+        className="bg-white border border-black hover:bg-gray-500 text-black py-2 px-6 rounded-3xl shadow-md transition transform hover:scale-105"
+        onClick={() => router.push("/home")}>
          More About Me
       </button>
 
@@ -24,3 +32,4 @@ export default function Home() {
     
     )
 }
+
