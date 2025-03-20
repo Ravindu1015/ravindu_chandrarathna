@@ -2,6 +2,7 @@
 
 import NavBar from "../components/NavBar";
 import Footer from "../components/footer"; // Corrected the import to match the file name
+import Image from "next/image";
 
 export default function projects() {
   return (
@@ -16,11 +17,13 @@ export default function projects() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-5xl mx-auto">
           {/* Left Side: Project Image */}
           <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-all ease-in-out duration-300">
-            <img
-              src="/OIP.jpeg" // You can replace this with the actual project image
-              alt="VoluntHeart Project"
-              className="w-full h-auto rounded-lg shadow-lg"
-            />
+          <Image 
+  src="/OIP.jpeg" 
+  alt="Profile2Career Project" 
+  width={800}  // Adjust according to actual image size
+  height={600} // Adjust according to actual image size
+  className="w-full h-auto rounded-lg shadow-lg"
+/>
           </div>
 
           {/* Right Side: Project Details */}
@@ -54,11 +57,13 @@ export default function projects() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-5xl mx-auto">
           {/* Left Side: Project Image */}
           <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-all ease-in-out duration-300">
-            <img
-              src="/OIP.jpeg" // You can replace this with the actual project image
-              alt="Profile2Career Project"
-              className="w-full h-auto rounded-lg shadow-lg"
-            />
+          <Image 
+  src="/OIP.jpeg" 
+  alt="Profile2Career Project" 
+  width={800}  // Adjust according to actual image size
+  height={600} // Adjust according to actual image size
+  className="w-full h-auto rounded-lg shadow-lg"
+/>
           </div>
 
           {/* Right Side: Project Details */}

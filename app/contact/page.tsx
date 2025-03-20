@@ -18,7 +18,7 @@ export default function ContactPage() {
           Contact Me <span role="img" aria-label="contact">📞</span>
         </h1>
         <p className="text-lg text-gray-600 mb-10">
-          Feel free to reach out to me via any of the below channels. I’m happy to connect!
+          Feel free to reach out to me via any of the below channels. I&apos;m happy to connect!
         </p>
 
         {/* Contact Info Box with Rounded Corners */}
@@ -74,7 +74,7 @@ export default function ContactPage() {
           Send a Message <span role="img" aria-label="chat">💬</span>
         </h2>
         <p className="text-lg text-gray-600 mb-8">
-          If you'd like to get in touch, feel free to send me a message! It will be directed to my email.
+          If you&apos;d like to get in touch, feel free to send me a message! It will be directed to my email.
         </p>
 
         {/* Chatbox Button with White Color */}
