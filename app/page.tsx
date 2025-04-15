@@ -23,7 +23,7 @@ export default function Home() {
       <p>\/</p>
       <button
         className="bg-white border border-black hover:bg-gray-500 text-black py-2 px-6 rounded-3xl shadow-md transition transform hover:scale-105"
-        onClick={() => router.push("/About/")} // Changed to lowercase
+        onClick={() => router.push("/about/")} // Changed to lowercase
       >
         More About Me
       </button>
