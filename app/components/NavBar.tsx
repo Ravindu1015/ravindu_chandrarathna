@@ -1,3 +1,4 @@
+"use client"; // Ensure this component runs on the client side
 import Link from "next/link";
 
 const NavBar = () => {
