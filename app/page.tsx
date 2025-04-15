@@ -17,19 +17,16 @@ export default function Home() {
       />
       <h1 className="text-6xl font-bold mt-4">Ravindu Chandrarathna</h1>
       <p className="mt-4 text-xl">
-        Software Engineer,Project Manager & Full Stack Developer, and Cyber Security Enthusiast
+        Software Engineer, Project Manager & Full Stack Developer, and Cyber Security Enthusiast
       </p>
       <p>. </p>
       <p>\/</p>
       <button
         className="bg-white border border-black hover:bg-gray-500 text-black py-2 px-6 rounded-3xl shadow-md transition transform hover:scale-105"
-        onClick={() => router.push("/About")}>
-         More About Me
+        onClick={() => router.push("/About/")} // Changed to lowercase
+      >
+        More About Me
       </button>
-
-
     </div>  
-    
-    )
+  )
 }
-
